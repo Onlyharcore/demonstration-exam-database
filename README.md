@@ -1,1 +1,24 @@
-# demonstration-exam-database
+# База данных системы проведения демонстрационных экзаменов
+
+Учебный проект на PostgreSQL.
+
+## Файлы
+
+- `er_diagram.png` — ER-диаграмма.
+- `database_structure.xlsx` — описание таблиц и полей.
+- `01_create_tables.sql` — создание таблиц.
+- `02_fill_database.sql` — заполнение тестовыми данными.
+- `03_view_1.sql` – `05_view_3.sql` — три VIEW.
+- `06_analytics_1.sql` – `10_analytics_5.sql` — пять аналитических запросов.
+- `11_segmentation.sql` — пример сегментации и агрегации данных.
+
+## Порядок запуска
+
+1. `01_create_tables.sql`
+2. `02_fill_database.sql`
+3. `03_view_1.sql` – `05_view_3.sql`
+4. Аналитические запросы и `11_segmentation.sql`
+
+## Отчёты
+
+Два визуальных отчёта пока не включены: формат этого пункта нужно уточнить у преподавателя.
